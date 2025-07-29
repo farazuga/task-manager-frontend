@@ -1,0 +1,10 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "serve -s build -p 8080"
+healthcheckPath = "/"
+
+[env]
+NODE_ENV = "production"
+PORT = "8080"
