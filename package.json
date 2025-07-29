@@ -1,5 +1,7 @@
 {
   "name": "task-manager-frontend",
+  "homepage": ".",
+  
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +17,7 @@
   },
 {
   "scripts": {
-    "start": "serve -s build -l $PORT",
+    "start": "serve -s build -l 8080",
     "build": "react-scripts build",
     "dev": "react-scripts start",
     "test": "react-scripts test",
